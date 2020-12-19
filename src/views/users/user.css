@@ -1,0 +1,129 @@
+.tableContainer {
+    border-collapse : collapse;
+    margin : 25px;
+    font-size:  0.9em;
+    font-family:  sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tableContainer thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.tableContainer th,
+.tableContainer td {
+    padding: 12px 15px;
+}
+
+.tableContainer tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* .tableContainer tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+} */
+
+.tableContainer tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.tableContainer tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.userDetailContainer {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    margin-top : 25px;
+    margin-right: 25px;
+    
+}
+
+.userDetailHeader {
+    background-color: #009879;
+    /* padding: 12px 15px; */
+    color : "white"
+}
+
+.userDetailHeader > p  {
+    color : #ffffff;
+    font-size: large;
+    padding: 12px 15px;
+    font-weight: bold;
+
+}
+
+.vipUserDetailHeader {
+    background-color: #4309a0;
+    /* padding: 12px 15px; */
+    color : "white"
+}
+
+.vipUserDetailHeader > p  {
+    color : #ffffff;
+    font-size: large;
+    padding: 12px 15px;
+    font-weight: bold;
+
+}
+
+.vipCheckBox {
+    font-size: 16px;
+    padding : 0 0 0 20px;
+}
+
+.propertyList {
+    flex : 2;
+    margin-left: 20px;
+}
+
+.propertyTitle {
+  font-weight: bold;   
+}
+
+.statusBox {
+    flex : 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-right: 25px;
+    /* justify-content: center; */
+
+}
+
+.statusNumber {
+    font-size: 35px;
+    text-align: center;
+    color:  #009879 ;
+}
+
+.statusLabel {
+    font-size: 12px;
+    text-align: center;
+    vertical-align: text-bottom;
+
+}
+
+.statusText {
+    font-size: 20px;
+    text-align: center;
+    color:  #009879 ;
+
+}
+
+.statusSection {
+    display: flex;
+    margin-top: 25px;
+    align-content: center;
+}
+
+button {
+    background-color: #009879; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+
+  }

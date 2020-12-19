@@ -1,0 +1,49 @@
+.statusBox {
+    flex : 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-right: 25px;
+    /* justify-content: center; */
+
+}
+
+.userDetailHeader {
+    background-color: #009879;
+    /* padding: 12px 15px; */
+    color : "white"
+}
+
+.userDetailHeader > p  {
+    color : #ffffff;
+    font-size: large;
+    padding: 12px 15px;
+    font-weight: bold;
+
+}
+
+
+.postTitle {
+    font-size: 18px;
+    color:  #009879 ;
+    padding : 25px 0 0 25px;
+
+}
+
+.postBody {
+    font-size: 15px;
+   padding-left: 25px;
+   padding-bottom: 25px;
+
+}
+
+.commentName {
+    font-size: 17px;
+    color:  #009879 ;
+    padding-left: 20px;
+
+
+}
+
+.commentBody {
+    padding-left: 20px;
+    font-size: 15px;
+}
